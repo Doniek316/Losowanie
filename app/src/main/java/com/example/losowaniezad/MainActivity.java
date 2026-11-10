@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                     if(liczba == WylosowanaLiczba){
                         przycisk[liczba-1].setBackgroundColor(Color.GREEN);
                         wynik.setText("Brawo zgadles lizbe :) ");
+                        finish();
                     }else{
                         przycisk[liczba-1].setBackgroundColor(Color.RED);
                         wynik.setText("żle, sproboj jeszcze raz ");
